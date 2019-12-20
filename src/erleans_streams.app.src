@@ -1,0 +1,18 @@
+{application, erleans_streams,
+ [{description, "Erleans extension for working with streams"},
+  {vsn, "git"},
+  {registered, []},
+  {mod, {erleans_streams_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    jch,
+    sbroker,
+    erleans
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
